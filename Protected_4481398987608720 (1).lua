@@ -717,18 +717,17 @@ end
 	Enabled = false
 })
 
-local B = Y.Toggle({
-	Text = "MONEY",
+local Bopop = Y.Toggle({
+	Text = "I'm a switch",
 	Callback = function(Value)
     if Value then
-print("ACTIVADO")
-			
+        print("Desactivado")
     else
-print("DESACTIVADO")
-			end				
+        print("Activado")
 	end,
 	Enabled = false
 })
+
 
 
 
