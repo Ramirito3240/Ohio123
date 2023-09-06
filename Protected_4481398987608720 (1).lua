@@ -767,7 +767,7 @@ local B = Y.Toggle({
 
             -- Actualizar el ESP inicialmente
             updateESP()
-			end
+			
     else
    local ESP = game.CoreGui:FindFirstChild("MoneyESP") -- Cambia "MoneyESP" por el nombre de tu ESP
 
